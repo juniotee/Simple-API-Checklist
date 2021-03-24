@@ -1,0 +1,15 @@
+ID,Test name,Domain,Owasp API Top Ten
+1,Test user enumeration (if applicable),Authorization,"A1, A3"
+2,Exploit vulnerabilities to gain unauthorized access,Authorization,A2
+3,"Transmission of sensitive information (token, credentials, etc.) in an insecure manner",Integrity/Confidentiality,A1
+4,Test for specific data entry vulnerabilities,Data validation,A8
+5,"Perform fuzzing on all request parameters (sending malicious information, for example)",Data validation,A8
+6,"Test for injection vulnerabilities (SQLi, LDAP, XML, Xpath, XXE if applicable)",Data validation,A8
+7,Testing for buffer overflow vulnerabilities,Data validation,A8
+8,Test for logic failures (if applicable),Data validation,A6
+9,Test how the application behaves by receiving incomplete information,Data validation,A6
+10,Review the logs created by the interception proxy to identify any sensitive data,Confidentiality,A3
+11,Check which HTTP methods are enabled,Data validation,A7
+12,"Test by path traversal, discovery endpoints (if applicable)",Data validation,A9
+13,"Look for overly descriptive messages (error messages, for example)",Confidentiality,A3
+14,Check Rate Limiting (25 thousand requests),Availability,A4
